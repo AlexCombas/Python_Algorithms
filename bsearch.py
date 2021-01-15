@@ -15,4 +15,4 @@ def binary_search(data, item):
     return -1
 
 
-print(binary_search(a, 15))
+print(binary_search(a, 7))
