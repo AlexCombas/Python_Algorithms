@@ -6,9 +6,9 @@ def binary_search(data, item):
     high = len(data) - 1
     while low <= high:
         middle = (low + high) // 2
-        if data[middle] == item:
+        if item == data[middle]:
             return middle
-        elif data[middle] > item:
+        elif item < data[middle]:
             high = middle - 1
         else:
             low = middle + 1
