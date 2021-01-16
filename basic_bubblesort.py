@@ -25,5 +25,5 @@ def bubble_sort_2(list_a):
 
 
 a_2 = [10, 8, 3, 16, 2, 9, 7, 10, 2, 12, 22, 11, 6, 1]
-bubble_sort_1(a_2)
+bubble_sort_2(a_2)
 print(a_2)
