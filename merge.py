@@ -20,7 +20,7 @@ def merge(left_half, right_half):
     i, j = 0, 0
 
     while True:
-        if left_half[i] < right_half[i]:
+        if left_half[i] < right_half[j]:
             result.append(left_half[i])
             i += 1
         else:
@@ -31,3 +31,9 @@ def merge(left_half, right_half):
             result.extend(left_half[i:] or right_half[j:])
             break
     return result
+
+
+a = [5, 1, 4, 7, 3]
+b = merge_sort(a)
+print(a)
+print(b)
